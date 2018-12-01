@@ -1,0 +1,134 @@
+body{
+  background-color:silver;
+}
+table{
+  background-color: silver;
+}
+.maindiv{
+    background-color:powderblue	;
+    margin:2%;
+    border-radius:5%;
+    justify-content: space-between;
+    display: flex;
+
+  }
+  .leftdiv{
+    background-color:lightcoral;
+  margin:6%;
+  margin-bottom: 15%;
+  margin-right:5%;
+  margin-top:5%;
+  border-radius:5px;
+  text-align: center;
+  border-style:solid;
+  box-shadow:4px 4px 4px 4px;
+  width:15%;
+  height:60%;
+  padding:1%;
+  position: fixed;
+
+}
+.rightdiv{
+  margin:inherit;
+background-color:mistyrose;
+margin-left:30%;
+padding-left:2%;
+border-radius: 2%;
+box-shadow: 3px 3px 3px 3px;
+}
+img{
+    margin:3%;
+    height:50%;
+    width:100%;
+  }
+
+@media screen and (min-width:220px) and (max-width:480px) {
+  body{
+    background-color;;
+    align-items:center;
+    }
+.maindiv{
+backgroung-color:lightyellow;
+border-radius:5%;
+display: inline-block;
+justify-content:space-between;
+margin:0%;
+}
+
+.leftdiv{
+  float: center;
+background-color:gold;
+margin:3%;
+border-radius:2%;
+box-shadow:3px 3px 3px 3px;
+text-align:center;
+height:60%;
+position: relative;
+margin-right:43%;
+width:90%;
+}
+.rightdiv{
+background-color:orange;
+margin:3%;
+border-radius:2%;
+box-shadow:3px 3px 3px 3px ;
+padding-left:2%;
+width:100%;
+
+margin-top:10%;
+}
+img{
+margin:3%;
+height:40%;
+width:80%;
+}
+}
+@media screen and (min-width:481px) and (max-width:1000px) {
+    body{
+      background-color:silver;
+    }
+    .maindiv{
+      background-color:grey;
+       margin:0%;
+      border-radius:5%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .leftdiv{
+      height:70%;
+      width:20%;
+      background-color:lightpink;
+    margin-left:-35%;
+      border-radius:3%;
+      text-align: center;
+      box-shadow: 4px 4px 4px 4px ;
+     position: fixed;
+
+
+      }
+    p{
+      text-decoration: inherit;
+    }
+    .rightdiv{
+      background-color:lightyellow;
+    margin-left:30%;
+    justify-content: center;
+    border-radius:3%;
+    text-decoration: inherit;
+    padding-left:3%;
+    box-shadow:2px 2px 2px 2px;
+    margin-right:10%;
+    padding-bottom: :10%;
+    }
+    img{
+      content:center;
+    height:40%;
+      width:90%;
+      margin:3%;
+      padding-top:3%;
+      padding-bottom: 3%
+    }
+    table{
+      background-color:silver;
+    }
+  }

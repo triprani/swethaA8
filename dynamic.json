@@ -1,0 +1,46 @@
+{
+  "career" :{
+"info":"To work in an environment where i can utilize my skills and knowledge and  i want to improve my skills"
+
+},
+
+"education":[
+  {
+  "degree":"Btech(IT)",
+  "institution":"Vignan Nirula",
+  "yearofpassing":"2020",
+  "percentage":"80%"
+},
+{
+"degree":"Intermediate",
+"institution":"Narayana Junior College",
+"yearofpassing":"2016",
+"percentage":"89%"
+},
+{
+"degree":"10th",
+"institution":"Little Flower English Medium school",
+"yearofpassing":"2014",
+"percentage":"75%"
+}
+
+],
+"skills":[
+  {
+  "title":"Platforms",
+  "content":"Windows,Linux"
+},
+{
+"title":"Programming Languages",
+"content":"C,Java,Python,HTML,CSS,JS,JSON"
+},
+{
+"title":"DataBase",
+"content":"mysql,plsql"
+}
+],
+"languages":"Telugu,English,Hindi"
+
+
+
+}
